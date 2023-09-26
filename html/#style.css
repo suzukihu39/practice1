@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+.abc{
+  color: rgb(216, 17, 17)
+}
+
+.abc > ul + a{
+ color="b"
+}
+
+
