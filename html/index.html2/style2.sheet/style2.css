@@ -1,0 +1,33 @@
+@charset "UTF-8";
+.titlebar {
+  display: table; width : 100; background-color: #cc0000; color:white;
+}
+
+.subject  {
+  display: table-cell;
+  text-align: center;
+}
+
+.date {
+  display: table-cell;text-align: right;
+}
+
+flex_test-box {
+  background-color: #eee;
+  padding:  10px;
+}
+
+.flex_test-item {
+  padding: 10px;
+  color:  #fff; 
+  margin:  10px;
+  border-radius:  5px;
+
+.flex_test-item:nth-child(1) {
+  background-color:  #2196F3; 
+}
+
+.flex_test-item:nth-child(2) {
+  background-color:  #4CAF50; 
+}
+}
